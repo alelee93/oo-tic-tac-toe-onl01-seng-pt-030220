@@ -2,7 +2,6 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-class Test
-
-def initialize 
-end
+puts "Welcome to Tic Tac Toe!"
+game = TicTacToe.new # <= make an instance of our class
+game.play # <= call the method that starts the game
